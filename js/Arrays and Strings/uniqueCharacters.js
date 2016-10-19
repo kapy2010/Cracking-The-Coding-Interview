@@ -2,7 +2,7 @@
 
 function isUniqueChars(str) {
     var char_set = new Array(256);
-    for (var j = 0; i < 256; i++) char_set.push(false);
+    for (var i = 0; i < 256; i++) char_set.push(false);
 
     for (var i = 0; i < str.length; i++) {
         var val = str.charCodeAt(i);
